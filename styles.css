@@ -1,0 +1,44 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+html, body{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+p{
+    color: var(--Grayish-blue);
+    font-size: 12px;
+}
+h3{
+    color: var(--Dark-blue);
+    font-size: 17px;
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: var(--Light-gray);
+    
+}
+.card {
+    max-width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 10px solid var(--White);
+    border-radius: 10px;
+    background-color: var(--White);
+  }
+  .bar-code-image{
+    border-radius: 10px;
+  }
+
+  .description {
+    padding: 2px 20px 10px;
+  }
+  
